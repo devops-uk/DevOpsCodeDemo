@@ -4,7 +4,6 @@ pipeline{
        
         maven 'Mymaven'
     }
-	
 	agent any
       stages{
            stage('Checkout the code'){
